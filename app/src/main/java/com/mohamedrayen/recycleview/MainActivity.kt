@@ -20,10 +20,16 @@ class MainActivity : AppCompatActivity() {
         val user2 = User("Ben Hassine Mohamed Rayen",R.drawable.rayen2)
         val user3 = User("Ben Hassine Mohamed Rayen",R.drawable.rayen3)
         val user4 = User("Ben Hassine Mohamed Rayen",R.drawable.rayen4)
+        val user5 = User("Ben Hassine Mohamed Rayen",R.drawable.rayen4)
+        val user6 = User("Ben Hassine Mohamed Rayen",R.drawable.rayen2)
         usersList.add(user1)
         usersList.add(user2)
         usersList.add(user3)
         usersList.add(user4)
+        usersList.add(user4)
+        usersList.add(user4)
+        usersList.add(user5)
+        usersList.add(user6)
 
         val adapter = MyAdapter(usersList)
         recyclerView.adapter = adapter
